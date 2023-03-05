@@ -17,6 +17,22 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
+        <Link
+            href="/"
+            className={styles.card}
+          >
+            <h2>
+              Home <span>-&gt;</span>
+            </h2>
+          </Link>
+          <Link
+            href="/contacts"
+            className={styles.card}
+          >
+            <h2>
+              Contacts <span>-&gt;</span>
+            </h2>
+          </Link>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
