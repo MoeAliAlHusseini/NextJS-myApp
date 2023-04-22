@@ -77,14 +77,14 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a
+          <Link
             href="/learn/react"
             className={styles.card}
           >
             <h2 className={inter.className}>
               Learn ReactJS <span>-&gt;</span>
             </h2>
-          </a>
+          </Link>
 
           <Link
             href="/learn/next"
@@ -96,23 +96,23 @@ export default function Home() {
             </h2>
           </Link>
 
-          <a
+          <Link
             href="/learn/vue"
             className={styles.card}
           >
             <h2 className={inter.className}>
               Learn VueJS <span>-&gt;</span>
             </h2>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/learn/angular"
             className={styles.card}
           >
             <h2 className={inter.className}>
               Learn AngularJS <span>-&gt;</span>
             </h2>
-          </a>
+          </Link>
         </div>
       </main>
     </>
