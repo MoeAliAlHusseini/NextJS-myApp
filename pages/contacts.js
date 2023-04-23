@@ -33,7 +33,7 @@ const Contacts = () => {
             return (
                 <Link key={index} href={`/contacts/${contact.name}`}>
                     <ul >
-                        {index+1 + '-' + contact.name}
+                        <li>{index+1 + '-' + contact.name}</li>
                     </ul> 
                 </Link>
             )
